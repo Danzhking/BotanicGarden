@@ -1,0 +1,14 @@
+﻿<Window x:Class="BotanicGarden.Window2"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BotanicGarden"
+        mc:Ignorable="d"
+        Title="Ввод Email" Height="215" Width="400">
+    <Grid Background="AntiqueWhite">
+        <TextBlock HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,57,0,0" FontSize="16" Text="Введите ваш Email:" />
+        <TextBox Name="EmailTextBox" HorizontalAlignment="Center" VerticalAlignment="Top" Width="250" Margin="0,100,0,0" />
+        <Button Content="Подтвердить Email" Name="ConfirmEmailButton" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,143,0,0" Width="150" Background="#2c3e50" Foreground="White" BorderBrush="#2980b9" BorderThickness="1" Click="ConfirmEmailButton_Click_1" />
+    </Grid>
+</Window>
